@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F9FAFB"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/logo"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="គ្រប់គ្រងចំណាយរបស់អ្នក / Manage Your Expense, Thoeun Engyi"
+        android:textColor="#2E7D32"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFFFFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvLastExpense"
+                android:text="ការចំណាយចុងក្រោយរបស់ខ្ញុំគឺ ០ / My last expense was 0"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnAddNew"
+        android:text="បន្ថែមការចំណាយថ្មី / Add New Expense"
+        android:textAllCaps="false"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnViewDetail"
+        android:text="មើលព័ត៌មានលម្អិត / View Detail Expense"
+        android:textAllCaps="false"
+        android:backgroundTint="#81C784"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp" />
+
+</LinearLayout>
