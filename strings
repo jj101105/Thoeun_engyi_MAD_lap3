@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Expense Tracker - គ្រប់គ្រងចំណាយ</string>
+
+    <string-array name="currency_array">
+        <item>KHR (រៀល)</item>
+        <item>USD (ដុល្លារ)</item>
+        <item>THB (បាត)</item>
+        <item>VND (ដុង)</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>អាហារ / Food</item>
+        <item>ដឹកជញ្ជូន / Transport</item>
+        <item>ទិញទំនិញ / Shopping</item>
+        <item>កំសាន្ត / Entertainment</item>
+        <item>ផ្សេងៗ / Other</item>
+    </string-array>
+</resources>
